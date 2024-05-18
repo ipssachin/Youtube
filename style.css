@@ -1,0 +1,49 @@
+#container {
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: rgb(132, 170, 44);
+    color: #ffffff;
+  }
+  
+  #array-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #array-list li {
+    background-color: #5a4815;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 3px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  #array-list li.selected {
+    background-color: #ffc107;
+  }
+  
+  #operations {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  
+  #operations button {
+    padding: 5px 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  #message {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
